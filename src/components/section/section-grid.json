@@ -10,10 +10,6 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "text",
-      "required": true
-    },
     "text_grid": {
       "type": "component",
       "repeatable": true,
@@ -30,6 +26,10 @@
       "type": "component",
       "repeatable": false,
       "component": "section.section-metadata",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
       "required": true
     }
   }
